@@ -21,7 +21,7 @@ def getAccess_token():
     url = 'https://id.trimble.com/oauth/token'
     headers = {
         'Content-Type': 'application/x-www-form-urlencoded',
-        'Authorization': 'Basic N2IzMzlhZmItN2U2OS00MzU5LTg3MGUtZGNmZWY0ZWI0ODY1OjNmYzc0MzAyZWMwZTQ2NWRiNjg2ZDFmNTJlZjg5NmRh'
+        'Authorization': 'Basic base64string'
     }
     data = {
         'grant_type': 'client_credentials',
