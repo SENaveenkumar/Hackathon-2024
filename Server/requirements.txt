@@ -1,0 +1,9 @@
+fastapi
+requests
+beautifulsoup4
+reportlab
+textwrap3
+fastapi[all]
+langchain
+pydantic
+langchain_community

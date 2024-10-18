@@ -1,0 +1,13 @@
+1. pip install virtualenv
+
+2. cd /path/to/your/project
+   
+3. virtualenv venv
+
+4. venv\Scripts\activate
+
+5. pip install -r requirements.txt
+
+To Run :
+
+6. uvicorn main:app --reload
